@@ -36,6 +36,8 @@ int main(int argc, char *argv[])
     qputenv("QT_QPA_PLATFORM", "eglfs");
     qputenv("QT_QPA_FONTDIR", "/usr/share/fonts");
     qputenv("QT_QPA_EVDEV_KEYBOARD_PARAMETERS", "/dev/input/event0:/dev/input/event1:/dev/input/event2");
+    qputenv("QT_LOGGING_RULES", "qt.*.debug=true");
+
     qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
 
     QGuiApplication app(argc, argv);
