@@ -73,6 +73,7 @@ Rectangle {
                     previewText: "One line field"
                     enterKeyAction: EnterKeyAction.Next
                     onEnterKeyClicked: passwordField.focus = true
+                    focus:true
                 }
                 TextField {
                     id: passwordField
