@@ -3,6 +3,7 @@ TARGET = basic
 QT += qml quick
 SOURCES += main.cpp
 CONFIG += link_pkgconfig
+CONFIG += disable-desktop
 static {
     QT += svg
     QTPLUGIN += qtvirtualkeyboardplugin
