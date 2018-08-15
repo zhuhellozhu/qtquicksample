@@ -69,6 +69,7 @@ Rectangle {
                     font.pixelSize: 22
                 }
                 TextField {
+                    id:no1
                     width: parent.width
                     previewText: "One line field"
                     enterKeyAction: EnterKeyAction.Next
@@ -141,4 +142,10 @@ Rectangle {
             }
         }
     }
+
+    Component.onCompleted: {
+        no1.forceActiveFocus();
+        Qt.inputMethod.show();
+    }
+
 }
