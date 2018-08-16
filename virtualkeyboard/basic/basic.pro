@@ -4,6 +4,7 @@ QT += qml quick
 SOURCES += main.cpp
 CONFIG += link_pkgconfig
 CONFIG += disable-desktop
+QMAKE_CXXFLAGS += -g
 static {
     QT += svg
     QTPLUGIN += qtvirtualkeyboardplugin
