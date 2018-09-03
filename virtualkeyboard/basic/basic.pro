@@ -5,10 +5,6 @@ SOURCES += main.cpp
 CONFIG += link_pkgconfig
 CONFIG += disable-desktop
 QMAKE_CXXFLAGS += -g
-static {
-    QT += svg
-    QTPLUGIN += qtvirtualkeyboardplugin
-}
 
 target.path = $$[QT_INSTALL_EXAMPLES]/virtualkeyboard/basic
 INSTALLS += target
