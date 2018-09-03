@@ -27,9 +27,9 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.11
+import QtQuick 2.9
 import QtQuick.Window 2.2
-import QtQuick.VirtualKeyboard 2.3
+import QtQuick.VirtualKeyboard 2.0
 import "content"
 
 Item {
